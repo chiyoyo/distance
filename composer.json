@@ -1,0 +1,32 @@
+{
+    "name": "chiyoyo/distance",
+    "description": "Calculate the distance between 2 points.",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^7.1.8 || ^8.0",
+        "monolog/monolog": "^3.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpmd/phpmd": "^2.9",
+        "phpunit/phpunit": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Distance\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        },
+        "files": [
+        ]
+    },
+    "scripts": {
+        "phpcs": "php-cs-fixer fix -v --diff --dry-run --config=.php-cs-fixer.dist.php src tests",
+        "phpmd": "phpmd src,tests github phpmd-ruleset.xml",
+        "phpunit": "phpunit --verbose"
+    }
+}
