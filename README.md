@@ -8,7 +8,11 @@ Calculate the distance between 2 locations
 ## Usage
 
 ```php
-$distance = Distance::get([$latitude1, $longitude1], [$latitude2, $longitude2]);
+$coordinate1 = new Coordinate($latitude1, $longitude1);
+$coordinate2 = new Coordinate($latitude2, $longitude2);
+$distance = Distance::hybeny($coordinate1, $coordinate2);
+$distance = Distance::sphericalTrigonometry($coordinate1, $coordinate2);
+$distance = Distance::geodesicSailing($coordinate1, $coordinate2);
 ```
 
 ## Features
