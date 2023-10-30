@@ -3,6 +3,14 @@
     "description": "Calculate the distance between 2 points.",
     "license": "MIT",
     "type": "library",
+    "homepage": "https://www.red-wing.biz/",
+    "authors": [
+        {
+            "name": "Kouji Chihara",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["distance", "latitude", "longitude"],
     "require": {
         "php": "^7.1.8 || ^8.0",
         "monolog/monolog": "^3.4"

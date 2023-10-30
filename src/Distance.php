@@ -94,7 +94,7 @@ class Distance
 
     /**
      * ２地点間の距離(m)を求める
-     * 測地線航海算法バージョン
+     * 測地線航海算法
      *
      * @param Coordinate $coordinate1 始点座標
      * @param Coordinate $coordinate2 終点座標
