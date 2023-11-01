@@ -27,7 +27,7 @@ class CoordinateTest extends TestCase
             'Latitude Over'        => [100, 0, true],
             'Latitude Over minus'  => [-100, 0, true],
             'Longitude Over'       => [0, 200, true],
-            'Longitude Over minus' => [0, -200, false],
+            'Longitude Over minus' => [0, -200, true],
             'OK'                   => [0, 0, false],
         ];
 
