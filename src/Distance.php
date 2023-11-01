@@ -17,7 +17,7 @@ class Distance
      * @param boolean $mode 測地系 true:世界(default) false:日本
      * @return float 距離(m)
      */
-    public static function hybeny(Coordinate $coordinate1, Coordinate $coordinate2, $mode = true)
+    public static function hubeny(Coordinate $coordinate1, Coordinate $coordinate2, $mode = true)
     {
         $lat1 = $coordinate1->lat();
         $lon1 = $coordinate1->lon();
