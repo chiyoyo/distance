@@ -24,11 +24,11 @@ class Coordinate
     public function __construct(float $latitude, float $longitude)
     {
         if ($latitude < -90 || $latitude > 90) {
-            throw new \Exception('Invalid latitude.');
+            throw new \Exception('Invalid latitude: ' . $latitude);
         }
 
         if ($longitude < -180 || $longitude > 180) {
-            throw new \Exception('Invalid longitude');
+            throw new \Exception('Invalid longitude: ' . $longitude);
         }
 
         $this->latitude = $latitude;
