@@ -34,6 +34,6 @@
     "scripts": {
         "phpcs": "php-cs-fixer fix -v --diff --dry-run --config=.php-cs-fixer.dist.php src tests",
         "phpmd": "phpmd src,tests github phpmd-ruleset.xml",
-        "phpunit": "phpunit --verbose"
+        "phpunit": "phpunit"
     }
 }
