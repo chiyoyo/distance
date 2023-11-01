@@ -1,5 +1,9 @@
 # Distance
 
+[![PHPCS](https://github.com/chiyoyo/distance/actions/workflows/phpcs.yml/badge.svg)](https://github.com/chiyoyo/distance/actions/workflows/phpcs.yml)
+[![PHPMD](https://github.com/chiyoyo/distance/actions/workflows/phpmd.yml/badge.svg)](https://github.com/chiyoyo/distance/actions/workflows/phpmd.yml)
+[![Test](https://github.com/chiyoyo/distance/actions/workflows/phpunit.yml/badge.svg)](https://github.com/chiyoyo/distance/actions/workflows/phpunit.yml)
+
 ## Overview
 
 Calculate the distance between 2 locations.
